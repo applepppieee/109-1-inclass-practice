@@ -1,0 +1,54 @@
+---
+title: "課?<a0>?練習模<e7><89><88>"
+author: "?୳??"
+date: "2020-10-28"
+output: output_format
+params:
+  id: "410973030"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Your code
+```{r}
+# 有多少名字可選：
+names(listExample)
+```
+
+
+```{r}
+listExample[["student"]]
+listExample$student
+
+listExample[["學期"]]  # 小心不是反頓點喔。
+listExample$學期
+```
+```{r}
+vectorExample
+vectorExample[c(1, 3)]
+```
+```{r}
+# 顯示到第一層
+str(listExample, max.level = 1)
+
+listExample[c("學期")]
+listExample[c("student", "學期")]
+```
+```{r}
+vectorExample
+vectorExample[c(1, 3)]
+```
+
+```{r}
+a <- c(2, 3, 5)
+b <- c(4, -1, 3)
+```
+```{r}
+a + b
+a - b
+a * b
+a/b
+```
+
